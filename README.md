@@ -1,6 +1,14 @@
 # RoomDbSample
 Basic CRUD operations inRoomDB
 This is a basic demo app on how to implement RoomDb 
+
+## output
+
+
+[![Watch the video](https://giphy.com/gifs/5t9ETIzOyHY216exgw)](https://giphy.com/gifs/5t9ETIzOyHY216exgw)
+
+
+
     
    ## Dependency
 ```
