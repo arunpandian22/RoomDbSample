@@ -5,7 +5,7 @@ This is a basic demo app on how to implement RoomDb
 ## output
 
 
-[![Watch the video](https://giphy.com/gifs/5t9ETIzOyHY216exgw)](https://giphy.com/gifs/5t9ETIzOyHY216exgw)
+[![Watch the video](https://media.giphy.com/media/9M1qqgTBB0m44bEmXd/giphy.gif)]
 
 
 
