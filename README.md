@@ -5,7 +5,7 @@ This is a basic demo app on how to implement RoomDb
 ## output
 
 
-[![Watch the video](https://media.giphy.com/media/9M1qqgTBB0m44bEmXd/giphy.gif)]
+![Watch the video](https://media.giphy.com/media/9M1qqgTBB0m44bEmXd/giphy.gif)
 
 
 
@@ -31,9 +31,9 @@ Here annotationProcessor is used to use annotation in RoomDb like following
  
  ## Creating Model for Tables:
  
- @entity annotation is used to define the table. 
+ @Entity annotation is used to define the table. 
  @Entity(tableName = "student") here table name defines the name of the table.
- if you didn't mention the column name in @entity means it  will take a class name as a column name
+ if you didn't mention the column name in @Entity means it  will take a class name as a column name
  
 ```
 
