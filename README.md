@@ -33,7 +33,7 @@ Here annotationProcessor is used to use annotation in RoomDb like following
  
  @Entity annotation is used to define the table. 
  @Entity(tableName = "student") here table name defines the name of the table.
- if you didn't mention the column name in @Entity means it  will take a class name as a column name
+ if you didn't mention the tableName in @Entity means it  will take a class name as a table name
  
 ```
 
