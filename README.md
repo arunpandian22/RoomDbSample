@@ -40,14 +40,14 @@ Here annotationProcessor is used to use annotation in RoomDb like following
 @Entity(tableName = "student")
 public class Student
 {
-  public   String Name;
+  public String Name;
   @PrimaryKey(autoGenerate = true)
-  public   int id;
+  public int id;
   public String Address;
   public boolean isMale;
   public Date createdAt;
   @Embedded
-  public   Marks marks;
+  public Marks marks;
 }
 ```
 
