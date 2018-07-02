@@ -1,5 +1,5 @@
 # RoomDbSample
-Basic CRUD operations inRoomDB
+Basic CRUD operations in RoomDB
 This is a basic demo app on how to implement RoomDb 
 
 ## output
