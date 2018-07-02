@@ -43,10 +43,10 @@ public class Student
   public   String Name;
   @PrimaryKey(autoGenerate = true)
   public   int id;
-   public String Address;
-   public boolean isMale;
-   public Date createdAt;
-   @Embedded
+  public String Address;
+  public boolean isMale;
+  public Date createdAt;
+  @Embedded
   public   Marks marks;
 }
 ```
@@ -144,7 +144,7 @@ public abstract class AppDataBase extends RoomDatabase {
 after creating the Database class you have to build the Database like following in this class
 
 ```
-   private static AppDataBase instance;
+    private static AppDataBase instance;
     public abstract MarkDao markDao();
     public abstract StudentDao studentDao();
     public static AppDataBase getAppDatabase(Context context)
