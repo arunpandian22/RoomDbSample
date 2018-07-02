@@ -25,7 +25,7 @@ Here annotationProcessor is used to use annotation in RoomDb like following
     void delete(Student... students);
 
     @Update
-       void update(Student... students);
+    void update(Student... students);
  
  ```
  
@@ -54,7 +54,7 @@ public class Student
 here  @Embedded annotation is used to include the Marks class properties as a fields in table
 
 ```
-@PrimaryKey(autoGenerate = true)
+  @PrimaryKey(autoGenerate = true)
   public   int id;
   
 ```
@@ -63,12 +63,12 @@ here  @Embedded annotation is used to include the Marks class properties as a fi
 if you give autogenerae= true means it will create the id for each coloumn.
 
   ```
-  @ColumnInfo(name = "mid")
+   @ColumnInfo(name = "mid")
    public int studentId;
    
   ```
   
-  @ColumnInfo annotation used to define the column name if you didn't prove any column name means it will take a variable name as a coloumn name
+a @ColumnInfo annotation used to define the column name if you didn't prove any column name means it will take a variable   name   as a coloumn name
   
   
 ##  TypeConverters 
